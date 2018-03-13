@@ -2,6 +2,9 @@
 
 # @bcodes/ngx-interact-outside
 
+```
+npm i @bcodes/ngx-interact-outside
+```
 
 Listen for mouse down events outside of a host component, and mouse leave events
                   for the host component. For touch enabled devices, `touchstart` can be used
