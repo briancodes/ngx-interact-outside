@@ -1,7 +1,7 @@
 {
   "name": "@bcodes/ngx-interact-outside",
   "description": "Directive for listening to MouseLeave, MouseDown, TouchStart outside of a HtmlElement - listeners can be toggled on/off individually with input bindings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/briancodes/ngx-interact-outside.git",
   "author": "briancodes",
   "license": "MIT",
