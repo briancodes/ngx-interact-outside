@@ -1,4 +1,4 @@
-import { InteractOutsideDirective, CurrentState } from '../../dist/lib';
+import { InteractOutsideDirective, CurrentState, InteractOutsideModule } from '../../dist/lib';
 import { TestBed, ComponentFixture, fakeAsync, tick, async } from '@angular/core/testing';
 import { Component, DebugElement } from '@angular/core';
 import { By } from '@angular/platform-browser';
@@ -70,7 +70,8 @@ describe('InteractOutsideDirective', () => {
     describe('Directive: InteractOutsideDirective', () => {
         beforeEach(() => {
             TestBed.configureTestingModule({
-                declarations: [TestInteractOutsideComponent, InteractOutsideDirective]
+                imports: [InteractOutsideModule],
+                declarations: [TestInteractOutsideComponent]
             });
             fixture = TestBed.createComponent(TestInteractOutsideComponent);
             component = fixture.componentInstance;

@@ -1,16 +1,22 @@
 {
-  "name": "package-name",
-  "description": "[DESCRIPTION]",
+  "name": "@bcodes/ngx-interact-outside",
+  "description": "Directive for listening to MouseLeave, MouseDown, TouchStart outside of a HtmlElement - listeners can be toggled on/off individually with input bindings",
   "version": "1.0.0",
-  "repository": "[URL]",
-  "author": "[AUTHOR]",
+  "repository": "https://github.com/briancodes/ngx-interact-outside.git",
+  "author": "briancodes",
   "license": "MIT",
   "private": false,
   "peerDependencies": {
-
+    "@angular/common": ">=5.x",
+    "@angular/core": ">=5.x"
   },
   "keywords": [
-    "angular"
+    "angular",
+    "click",
+    "outside",
+    "directive",
+    "touchstart",
+    "ngx"
   ],
   "ngPackage": {
     "$schema": "./node_modules/ng-packagr/ng-package.schema.json",

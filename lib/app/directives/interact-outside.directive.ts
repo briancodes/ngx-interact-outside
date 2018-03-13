@@ -38,7 +38,7 @@ import { Directive, Input, Output, OnInit, Renderer2, EventEmitter, ElementRef, 
  *
  * - `interactOutsideEvent` is based on host:HTMLElement.contains(MouseEvent.target)
  * - Event triggered if the host element does not contain the target of the event
- * - In the example below, `mousedown` or `touchstart` on `document, x, y, z` would all trigger `mouseDownOutsideEvent`
+ * - In the example below, `mousedown` or `touchstart` on `document, x, y, z` would all trigger `interactOutsideEvent`
  * - `mouseLeaveEvent` triggers only when the mouse leaves the `host` element. As long as the mouse is over one
  *     of the `host` child components, mouse leave will not fire. It will also not fire when moving between a
  *     hosts child components. e.g. in example below, moving from `A->Host` would not trigger the event
