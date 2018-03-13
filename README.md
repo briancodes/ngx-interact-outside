@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/briancodes/ngx-interact-outside.svg?branch=master)](https://travis-ci.org/briancodes/ngx-interact-outside)
+
 # @bcodes/ngx-interact-outside
 
 Listen for mouse down events outside of a host component, and mouse leave events
