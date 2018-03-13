@@ -3,9 +3,7 @@ import { Directive, Input, Output, OnInit, Renderer2, EventEmitter, ElementRef, 
 /**
  * @description Listen for mouse down events outside of a host component, and mouse leave events
  *                 for the host component. For touch enabled devices, `touchstart` can be used
- *                 separately or in conjunction with `mousedown`. You may want to preventDefault() in
- *                 the `touchstart interactOutsideEvent` handler to prevent emulated `mousedown mouseclick` etc,
- *                 as this Directive does not call `preventDefault` or `stopPropagation` on any events
+ *                 separately or in conjunction with `mousedown`
  *
  * @Input `isListening:boolean` default true. Determines if `Output` events are emitted. This can be toggled
  *     true and false to update the event emitting at runtime
@@ -21,7 +19,6 @@ import { Directive, Input, Output, OnInit, Renderer2, EventEmitter, ElementRef, 
  *
  * @note some browsers trigger mouseleave when buttons clicked, tooltips show etc. These browser specific
  *     bugs are not addressed here. The mouseleave event is attached to the host, with no bells or whistles.
- * - And the following HTML:
  *
  * ### Example
  *
