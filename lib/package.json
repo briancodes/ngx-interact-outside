@@ -1,0 +1,22 @@
+{
+  "name": "package-name",
+  "description": "[DESCRIPTION]",
+  "version": "1.0.0",
+  "repository": "[URL]",
+  "author": "[AUTHOR]",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+
+  },
+  "keywords": [
+    "angular"
+  ],
+  "ngPackage": {
+    "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+    "dest": "../dist/lib",
+    "lib": {
+      "entryFile": "src/public_api.ts"
+    }
+  }
+}
